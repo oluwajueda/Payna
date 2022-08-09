@@ -31,7 +31,7 @@ function App() {
     <li className='pr-5 cursor-pointer'>Pricing</li>
     
   </ul>
-  <button className='bg-[#F5F6FB] mr-8 py-1 px-4 w-[130px] h-[38px] rounded-full mt-6 hidden sm:flex'  >sign in</button>
+  <button className='bg-[#F5F6FB] mr-8 py-1 px-4 w-[130px] h-[38px] rounded-full mt-6 hidden sm:flex justify-center'  >sign in</button>
   </div>
     </nav>
     </div>
@@ -93,7 +93,7 @@ required any finance skills or knowledge before</p>
 all of them just for you</p>
 </div>
 
-<div className='sm:mr-auto sm:ml-auto '>
+<div className='sm:mr-auto sm:ml-auto mb-14 '>
   <div className='sm:flex justify-center'>
   <div className='flex justify-center mt-10 sm:w-276 sm:pr-4'>
     <img src={share} alt='share' className=' w-[50px] h-[50px]'/>
@@ -151,9 +151,9 @@ harder and receive a gift</p>
 </div>
 
 </section>
-<div className='lg:flex lg:justify-around lg:mt-8 '>
-<div className=''>
-  <img src={video} alt='video' className='w-[321px] h-[227px] lg:h-[370px] lg:w-[590px]  ml-auto mr-auto mt-14'/>
+<div className='lg:flex lg:justify-around lg:mt-[100px]'>
+<div className=' lg:mt-14  '>
+  <img src={video} alt='video' className='w-[321px] h-[227px] lg:h-[370px] lg:w-[590px]  ml-auto mr-auto '/>
 </div>
 <div className='lg:pt-10 lg:ml-[-45px]'>
 <h3 className='text-red-400 text-4 leading-[24px] mt-[52px] font-bold text-center'>SAVE MORE TIME</h3>
