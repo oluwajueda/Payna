@@ -12,7 +12,7 @@ import reward from './photos/reward.png'
 import track from './photos/track.png'
 import show from './photos/show.png'
 import woman from './photos/woman.png'
-
+import 'normalize.css';
 
 function App() {
   return (
